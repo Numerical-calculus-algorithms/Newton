@@ -4,7 +4,7 @@ Implementazione del metodo di Newton per il calcolo degli zeri semplici ($f'(\al
 
 ## Idea generale
 L'algoritmo di basa sull'approssimazione ([Taylor](https://it.wikipedia.org/wiki/Teorema_di_Taylor)) dello zero mediante l'intersezione di rette tangenti con l'asse delle ascisse a partire da un punto iniziale (input) facendo ricorso alla ripetuta approssimazione della funzione con la sua retta tangente ($T_1$).  
-## Dimostrazione iterata generale
+## Iterata generale
 
 $$ x^{(k+1)} = x^{(k)}-\frac{f(x^{(k)})}{f'(x^{(k)})}$$ 
 
