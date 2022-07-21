@@ -23,7 +23,7 @@ siano, inoltre
 
 $$ x^{(1)} = 1 - \frac{\cos(1)}{-\sin(1)} \approx 1.64... $$
 
-Oss. L'algoritmo si ferma quando trova un'approssimazione della radice al disotto di una tolleranza (input) oppure quando raggionge il masismo numero di passi stabilito (input).
+Oss. L'algoritmo si ferma quando trova un'approssimazione della radice al disotto di una tolleranza (input) oppure quando raggionge il massimo numero di passi stabilito (input).
 
 ### Di seguito riportata la tabella delle varie iterate generate con Matlab:
 
