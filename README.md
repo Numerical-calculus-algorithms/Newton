@@ -1,9 +1,9 @@
 # Metodo di Newton
 
-Implementazione del metodo di Newton per il calcolo degli zeri semplici ($f'(\alpha) \not = 0$) di una funzione $(f(\alpha) = 0)$
+Implementazione del metodo di Newton per il calcolo degli zeri semplici ( $f'(\alpha) \not = 0$ ) di una funzione $(f(\alpha) = 0)$
 
 ## Idea generale
-L'algoritmo di basa sull'approssimazione ([Taylor](https://it.wikipedia.org/wiki/Teorema_di_Taylor)) dello zero mediante l'intersezione di rette tangenti con l'asse delle ascisse a partire da un punto iniziale (input) facendo ricorso alla ripetuta approssimazione della funzione con la sua retta tangente ($T_1$).  
+L'algoritmo di basa sull'approssimazione ([Taylor](https://it.wikipedia.org/wiki/Teorema_di_Taylor)) dello zero mediante l'intersezione di rette tangenti con l'asse delle ascisse a partire da un punto iniziale (input) facendo ricorso alla ripetuta approssimazione della funzione con la sua retta tangente ( $T_1$ ).  
 ## Iterata generale
 
 $$ x^{(k+1)} = x^{(k)}-\frac{f(x^{(k)})}{f'(x^{(k)})}$$ 
